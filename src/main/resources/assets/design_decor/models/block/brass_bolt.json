@@ -1,8 +1,0 @@
-{
-	"parent": "design_decor:block/screws",
-	"textures": {
-		"0": "design_decor:block/brass_bolt",
-		"particle": "design_decor:block/brass_bolt"
-	}
-
-}

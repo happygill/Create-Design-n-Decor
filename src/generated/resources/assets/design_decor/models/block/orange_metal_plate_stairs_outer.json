@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/outer_stairs",
-  "textures": {
-    "bottom": "design_decor:block/orange_metal_plate",
-    "side": "design_decor:block/orange_metal_plate",
-    "top": "design_decor:block/orange_metal_plate"
-  }
-}

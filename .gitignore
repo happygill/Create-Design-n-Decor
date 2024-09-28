@@ -23,3 +23,8 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
+/run-server/
+/run-data/
+
+# others
+/Todo.txt

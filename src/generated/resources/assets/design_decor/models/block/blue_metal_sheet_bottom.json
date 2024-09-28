@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/slab",
-  "textures": {
-    "bottom": "design_decor:block/blue_metal_sheet",
-    "side": "design_decor:block/blue_metal_sheet",
-    "top": "design_decor:block/blue_metal_sheet"
-  }
-}

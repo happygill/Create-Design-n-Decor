@@ -1,14 +1,27 @@
-metal support
-diagonal metal support
-metal support
-wooden support
-metal plates
-railings fix
-cogwheels fix
-copper floodlight recipe fix
-brass floodlight texture fix
+TODO
+
+Combustion Motor
+Dragon Breathing Recipe
+have a ponder/description & also noting gearshift & clutch can be inverted
+
+BIG ANIMAL WHEEL
+SMALL RAT WEEL
+RATS
+FAKE RAILS
+WAXABLE PIPES
 
 
+CHAIN BELT & TINY COGWHEELS
+COPYCAT ENCASED COGWHEELS
+BURDEN FUNNEL & TUNNELS (Fast output but half stack item no filter)
 
 
+Modular Drill
 
+Mechanical Drill + Bury Blend | Item-Application
+Changeable Head Types
+3x3
+Vein
+Enchantable
+Crusher
+Smelting

@@ -1,6 +1,0 @@
-{
-  "parent": "create:block/millstone/inner",
-  "textures": {
-    "5": "design_decor:block/millstones/diorite"
-  }
-}

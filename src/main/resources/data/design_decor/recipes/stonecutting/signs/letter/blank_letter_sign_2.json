@@ -1,9 +1,0 @@
-
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "tag": "forge:nuggets/brass"
-  },
-  "result": "design_decor:letter_sign",
-  "count": 1
-}

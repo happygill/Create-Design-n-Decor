@@ -1,8 +1,0 @@
-{
-  "parent": "create:block/millstone/item",
-  "textures": {
-    "4": "design_decor:block/crushing_wheels/tuff/plates",
-    "5": "design_decor:block/millstones/tuff",
-    "particle": "create:block/palettes/stone_types/cap/tuff_cut_cap"
-  }
-}

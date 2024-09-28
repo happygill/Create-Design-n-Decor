@@ -1,47 +1,37 @@
 modLoader="javafml"
-
 loaderVersion="[43,)"
-
 license="MIT"
+issueTrackerURL="https://github.com/DrMango14/Create-Design-n-Decor/issues"
 
 [[mods]]
-
-modId="design_decor"
-
-version="0.4.0"
-
-displayName="Create: Design n' Decor"
-
-logoFile="logo.png"
-
-
-authors="DrMangoTea, Milky, Luna, Pepa, Spydnel"
-
-description='''
-dave's building extended but way better :3
+    modId="design_decor"
+    version="${file.jarVersion}"
+    displayName="Create: Design n' Decor"
+    updateJSONURL="https://api.modrinth.com/updates/create-design-n-decor/forge_updates.json"
+    displayURL="https://modrinth.com/mod/create-design-n-decor"
+    logoFile="pack.png"
+    authors="Main People: [LopyLuna, MilkyFur, DrMangoTea] Additional People: [Pepa, Spydnel]"
+    description='''
+Create: Design n' Decor is an addon for the Create mod that focused on QOL decoration features that expand on the base decoration ability of Create whilst focusing on community feedback
 '''
 
 [[dependencies.design_decor]]
-
     modId="forge"
-
     mandatory=true
-
     versionRange="[43,)"
-
     ordering="NONE"
-
     side="BOTH"
-[[dependencies.design_decor]]
-modId="create"
-mandatory=true
-versionRange="[0.5.1,)"
-ordering="NONE"
-side="BOTH"
+
 [[dependencies.design_decor]]
     modId="minecraft"
     mandatory=true
-
     versionRange="[1.19.2,1.20)"
     ordering="NONE"
+    side="BOTH"
+
+[[dependencies.design_decor]]
+    modId="create"
+    mandatory=true
+    versionRange="[0.5.1.f,)"
+    ordering="AFTER"
     side="BOTH"
