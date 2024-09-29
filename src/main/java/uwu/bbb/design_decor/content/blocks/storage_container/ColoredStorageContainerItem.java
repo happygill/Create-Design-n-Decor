@@ -36,7 +36,11 @@ public class ColoredStorageContainerItem extends BlockItem {
     @Nullable
     @Override
     protected BlockState getPlacementState(@NotNull BlockPlaceContext pContext) {
-        return Objects.requireNonNull(super.getPlacementState(pContext)).setValue(COLOR, ColorHelper.getSelectedColor(color));
+        BlockState state = super.getPlacementState(pContext);
+        if (state != null) {
+            state = state.setValue(COLOR, ColorHelper.getSelectedColor(color));
+        }
+        return state;
     }
 
     @Override
