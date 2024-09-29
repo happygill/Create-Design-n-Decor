@@ -9,8 +9,19 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class ColorHelper {
+
+    @Override
+    public boolean equals(Object obj) {
+        return obj instanceof ColorHelper && ((ColorHelper) obj).digitId == this.digitId;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(digitId);
+    }
 
     @SuppressWarnings("unused")
     public static class DefaultColorProvider extends ColorHelper {
